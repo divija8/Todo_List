@@ -1,0 +1,63 @@
+body{
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    background-color: #457B9D
+  }
+  h1{
+    text-align: center;
+  }
+  .TodoList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    gap: 10px;
+  }
+  .TodoList > input{
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+  }
+
+  .TodoList  > button{
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    background-color: RED;
+  }
+  .container {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .todo{
+    width: 500px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: white;
+    padding: 0px 10px;
+    align-items: center;
+  }
+
+  .actions{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .actions > button{
+    margin: 10px;
+    width: 70px;
+    height: 40px;
+    font-size: 1.2rem;
+    color : white;
+    background-color: red;
+    border-radius: 15px;
+  }
+  .actions > input{
+    width: 30px;
+    height: 30px;
+  }
